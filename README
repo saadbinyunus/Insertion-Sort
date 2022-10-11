@@ -1,0 +1,27 @@
+EVERYTHING WORKED AS PER THE MANUAL
+
+1. I rearranged the data in the array of sorMain.c to test mySort.c sorting algorithm. The test file is named "testSort".
+	The sorting algorithm is insertion sort the idea was taken from the lectures.
+
+2. The printing code was taken from sortMain.c for both conditions in sortMain2.c
+	The test file is named "newsort"
+	some help was taken from cmdlinedemo.c
+
+
+
+
+
+
+ANSWER TO THE QUESTION FROM THE MANUAL:
+
+The betterSort function sorts the array from the inputted data then according to the function it sorts the array from the first index to the last which is the 0th index of the array and the last index of the array is number of elements - 1
+
+Example function call for bettersort.
+
+void mySort(int d[], unsigned int n)
+{
+
+betterSort(int data[], 0, n-1)
+
+}
+

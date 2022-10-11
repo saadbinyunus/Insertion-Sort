@@ -1,0 +1,14 @@
+void mySort(int d[], unsigned int n)
+{
+  int a;
+  for( a=0; a<n ; a++){
+    int k=d[a];
+    int i=a-1;
+
+    while( k<d[i] && i>0 ){
+      d[i+1] = d[i];
+      --i;}
+
+    d[i+1] = k;
+  }
+}
